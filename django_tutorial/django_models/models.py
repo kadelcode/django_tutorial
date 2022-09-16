@@ -6,7 +6,6 @@
 - Don't use a field name that conflicts with the models API like clean, save, or delete
 
 '''
-from unicodedata import name
 from django.db import models
 
 # Create your models here.
