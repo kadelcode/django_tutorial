@@ -42,7 +42,8 @@ INSTALLED_APPS = [
 
     # custom_apps
     'django_models.apps.DjangoModelsConfig',
-    'django.contrib.humanize'
+    'django_templates.apps.DjangoTemplatesConfig',
+    'django.contrib.humanize',
 ]
 
 MIDDLEWARE = [
