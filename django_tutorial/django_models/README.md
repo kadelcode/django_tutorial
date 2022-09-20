@@ -16,3 +16,9 @@
     - help_text - "help" text to be displayed with the form widget
     - primary_key - If True, this field is the primary key for the model
     - unique - If True, this field must be unique throughout the table
+
+
+# Verbose Field Names
+- Verbose name: It's an optional first positional argument given to all the fields, except for ForeignKey, ManyToManyField and OneToOneField.
+
+- For example: name = models.CharField("Your Name:", max_length = 30)
